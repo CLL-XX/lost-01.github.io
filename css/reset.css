@@ -1,0 +1,53 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,textarea,button,p,blockquote,th,td
+{
+	
+	font-family:'ppfont','myfont','pixelfont';
+	margin:0;padding:0;
+}
+@font-face {
+	/* 指定字体的名字 */
+	font-family:'myfont' ;
+	/* 服务器中字体的路径 */
+	src: url('../fa/font/slkscr.ttf');
+}
+@font-face {
+	/* 指定字体的名字 */
+	font-family:'ppfont';
+	/* 服务器中字体的路径 */
+	src: url('../fa/font/Perfect DOS VGA 437.ttf');
+}
+@font-face {
+	font-family: 'iconfont';
+	src: url('iconfont.woff2?t=1654330495663') format('woff2'),
+		 url('../fa/font/iconfont.woff') format('woff'),
+		 url('../fa/font/iconfont.woff2') format('truetype');
+  }
+@font-face {
+	/* 指定字体的名字 */
+	font-family:'pixelfont';
+	/* 服务器中字体的路径 */
+	src: url('../fa/font/fusion-pixel.ttf');
+}
+/* .iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  } */
+body{
+		font-family:'myfont','pixelfont';
+		text-align:center;
+		font-size: 16px;
+	}
+uL,ol,li
+{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color: rgb(251, 246, 246);
+}
+input,button,img{
+	border:none;
+	vertical-align:middle;}
